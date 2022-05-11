@@ -1,3 +1,5 @@
+// bai 2
+
 var url = "http://localhost:3000/users";
 
 function start() {
