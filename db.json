@@ -1,0 +1,17 @@
+{
+    "users": [{
+            "id": 1,
+            "fullName": "NguyenDucSy ",
+            "email": "nguyenducsy3577@gmail.com   ",
+            "phone": "0702434097",
+            "contact": "Noi dung mac dinh"
+        },
+        {
+            "fullName": "Nguyễn Đức Sỹ",
+            "email": "syndps12863@fpt.edu.vn",
+            "phone": "0702434097",
+            "contact": "dsad",
+            "id": 2
+        }
+    ]
+}
