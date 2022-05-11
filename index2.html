@@ -14,7 +14,7 @@
     <div class="container">
         <div class="row  gx-5 d-flex justify-content-sm-between">
             <div class="col-4">
-                <form class="p-5 border border-info mt-5">
+                <form id="myForm" class="p-5 border border-info mt-5">
                     <div class="form-group">
                         <label for="fullName">Họ và Tên</label>
                         <input type="text" class="form-control" id="fullName" value="" required>
@@ -32,7 +32,7 @@
                         <textarea class="form-control" id="contact" value="" required rows="4" cols="50"></textarea>
                     </div>
                     <button id="btnSubmit" type="button" class="btn btn-primary mt-3">Submit</button>
-                    <button id="btnClear" type="button" class="btn btn-danger mt-3">Clear</button>
+                    <button onclick="clearForm()" id="btnClear" type="button" class="btn btn-danger mt-3">Clear</button>
                 </form>
             </div>
             <div class="col-8">

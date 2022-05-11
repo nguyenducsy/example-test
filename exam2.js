@@ -63,5 +63,10 @@ function handleSubmit() {
             contact: contact
         }
         postData(formData)
+
     }
+}
+
+function clearForm() {
+    document.getElementById("myForm").reset()
 }
